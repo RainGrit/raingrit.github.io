@@ -7,35 +7,129 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/bootstrap.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<link rel="shortcut icon" href="https://raw.githubusercontent.com/RainGrit/raingrit.github.io/master/img/icobookmark.png" type="image/png">
+				<link rel="shortcut icon" href="https://raw.githubusercontent.com/RainGrit/raingrit.github.io/master/img/icobookmark.png" type="image/png">
+	<style>
+	body {
+	background-color: #161616;
+	}
+	</style>
 	</head>
-<body background="https://raw.githubusercontent.com/RainGrit/raingrit.github.io/master/img/background.png">
+	<body>
+<!-----Шапка сайта----->
 <nav class="navbar navbar-dark py-0 bg-primary navbar-expand-lg py-md-0">
-  <a class="navbar-brand" href="#"> 
-    <img src="https://raw.githubusercontent.com/RainGrit/raingrit.github.io/master/img/menulogo.png" width="113" height="50" alt="" loading="lazy">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Текст 1 <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Текст 2</a>
-      </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="#">Текст 3</a>
-      </li>
-     </ul>
+	<a class="navbar-brand" href="#"> 
+		<img src="https://raw.githubusercontent.com/RainGrit/raingrit.github.io/master/img/menulogo.png" width="113" height="50" alt="" loading="lazy">
+	</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item active">
+				<a class="nav-link" href="#"> Главная <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Текст 2</a>
+			</li>
+			<li class="nav-item dropdown">
+				 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				 RGG
+				 </a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#">Action</a>
+				<a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Something else here</a>
+       </div>
+			</li>
+		</ul>
     </div>
 </nav>
-<footer></footer>
-</body>
-<center>
-	<iframe id="ytplayer" type="text/html" width="1280" height="720" src="https://www.youtube.com/embed/NKdPuPIHlv8?autoplay=1&controls=0&fs=0&loop=1&modestbranding=1&iv_load_policy=3" frameborder="0" allowfullscreen>
-</center>
+<!-----Шапка сайта----->
+<!-----Карусель сайта----->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+<!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+<!--/.Indicators-->
+<!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="https://files.catbox.moe/fi7gdg.jpg"
+          alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Light mask</h3>
+        <p>First text</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+<!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+          alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Strong mask</h3>
+        <p>Secondary text</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+<!--Mask color-->
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+          alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Slight mask</h3>
+        <p>Third text</p>
+      </div>
+    </div>
+  </div>
+<!--/.Slides-->
+<!--Controls-->
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+<!--/.Controls-->
+</div>
+<!-----Карусель сайта----->
+<!-----Подвал сайта----->
+<footer class="page-footer font-small unique-color-dark">
+
+  <div style="background-color: #007bff;">
+    <div class="container">
+<!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+<!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0">Оставайтесь со мной в соц. сетях!</h6>
+        </div>
+<!-- Grid column -->
+<!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+<!-- Copyright -->
+</footer>
+<!-----Подвал сайта----->
+	</body>
 </html>
